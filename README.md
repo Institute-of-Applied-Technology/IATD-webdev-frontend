@@ -16,5 +16,16 @@ The code in this repository provides practical examples and additional resources
 
 To get started with the companion code, simply clone this repository and explore the different folders and files. Each section corresponds to a specific topic covered in the course and includes instructions and comments to help you understand the code. 
 
+## Folders
+
+- **topic_1**: Includes code relevant to Topic 1 of the course
+- **topic_2**: Includes code relevant to Topic 2 of the course
+- **topic_3**: Includes code relevant to Topic 3 of the course
+- **topic_4**: Includes code relevant to Topic 4 of the course
+- **topic_5**: Includes code relevant to Topic 5 of the course
+- **topic_6**: Includes code relevant to Topic 6 of the course
+
+
 ```sh
 git clone https://github.com/Institute-of-Applied-Technology/IATD-webdev-frontend.git
+
