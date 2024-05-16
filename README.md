@@ -14,7 +14,7 @@ The code in this repository provides practical examples and additional resources
 
 ## Getting Started
 
-To get started with the companion code, simply clone this repository and explore the different folders and files. Each section corresponds to a specific topic covered in the course and includes instructions and comments to help you understand the code.
+To get started with the companion code, simply clone this repository and explore the different folders and files. Each section corresponds to a specific topic covered in the course and includes instructions and comments to help you understand the code. 
 
 ```sh
 git clone https://github.com/yourusername/IATD-Web-Development-Front-End-Companion-Code.git
