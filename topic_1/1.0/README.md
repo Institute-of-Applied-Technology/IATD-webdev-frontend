@@ -9,7 +9,9 @@ A simple HTML document to break down the basic structure and components of HTML 
 
 ## Folder Structure 
 
-topic_1/1.0/
-├── index.html
-
+```
+└── 📁1.0
+    └── README.md
+    └── index.html
+```
 
