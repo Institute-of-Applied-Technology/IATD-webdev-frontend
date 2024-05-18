@@ -15,7 +15,6 @@ This section further improve the code from 1.b applying the following UI concept
 
 ```
 └── 📁1.c
-    └── .DS_Store
     └── about.html
     └── contact.html
     └── courses.html

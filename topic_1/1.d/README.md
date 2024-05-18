@@ -11,12 +11,11 @@ This section improve the code from 1.c website example to make it responsive.
 
 ```
 └── 📁1.d
-    └── .DS_Store
     └── about.html
     └── contact.html
     └── courses.html
     └── 📁images
-        └── -logo.gif
+        └── iatd-logo.gif
     └── 📁includes
         └── footer.html
         └── header.html
