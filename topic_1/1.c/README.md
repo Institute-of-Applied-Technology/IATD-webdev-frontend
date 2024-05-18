@@ -13,20 +13,23 @@ This section further improve the code from 1.b applying the following UI concept
 
 ## Folder Structure 
 
-topic_1/1.c/
-├── index.html
-├── about.html
-├── courses.html
-├── contact.html
-├── students.html
-├── includes/
-│   ├── header.html
-│   └── footer.html
-├── styles/
-│   └── style.css
-├── scripts/
-│   └── main.js
-└── images/
-    └── tafe-logo.gif
+```
+└── 📁1.c
+    └── .DS_Store
+    └── about.html
+    └── contact.html
+    └── courses.html
+    └── 📁images
+        └── tafe-logo.gif
+    └── 📁includes
+        └── footer.html
+        └── header.html
+    └── index.html
+    └── 📁scripts
+        └── main.js
+    └── students.html
+    └── 📁styles
+        └── style.css
+```
 
 

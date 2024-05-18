@@ -9,20 +9,22 @@ This section improve the code from 1.c website example to make it responsive.
 
 ## Folder Structure 
 
-topic_1/1.d/
-├── index.html
-├── about.html
-├── courses.html
-├── contact.html
-├── students.html
-├── includes/
-│   ├── header.html
-│   └── footer.html
-├── styles/
-│   └── style.css
-├── scripts/
-│   └── main.js
-└── images/
-    └── tafe-logo.gif
-
+```
+└── 📁1.d
+    └── .DS_Store
+    └── about.html
+    └── contact.html
+    └── courses.html
+    └── 📁images
+        └── tafe-logo.gif
+    └── 📁includes
+        └── footer.html
+        └── header.html
+    └── index.html
+    └── 📁scripts
+        └── main.js
+    └── students.html
+    └── 📁styles
+        └── style.css
+```
 

@@ -9,11 +9,12 @@ Start a basic website to give students understanding of what the web was like in
 
 ## Folder Structure 
 
-topic_1/1.a/
-├── index.html
-├── about.html
-├── courses.html
-├── contact.html
-└── images/
-    └── tafe-logo.gif
-
+```
+└── 📁1.a
+    └── about.html
+    └── contact.html
+    └── courses.html
+    └── 📁images
+        └── tafe-logo.gif
+    └── index.html
+```

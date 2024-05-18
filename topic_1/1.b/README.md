@@ -13,16 +13,17 @@ This section improves the code from 1.a applying the following UX concepts
 
 ## Folder Structure 
 
-topic_1/1.b/
-├── index.html
-├── about.html
-├── courses.html
-├── contact.html
-├── styles/
-│   └── style.css
-├── scripts/
-│   └── main.js
-└── images/
-    └── tafe-logo.gif
-
+```
+└── 📁1.b
+    └── about.html
+    └── contact.html
+    └── courses.html
+    └── 📁images
+        └── tafe-logo.gif
+    └── index.html
+    └── 📁scripts
+        └── main.js
+    └── 📁styles
+        └── style.css
+```
 
