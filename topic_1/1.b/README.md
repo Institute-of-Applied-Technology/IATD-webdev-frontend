@@ -19,7 +19,7 @@ This section improves the code from 1.a applying the following UX concepts
     └── contact.html
     └── courses.html
     └── 📁images
-        └── tafe-logo.gif
+        └── iatd-logo.gif
     └── index.html
     └── 📁scripts
         └── main.js

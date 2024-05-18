@@ -16,7 +16,7 @@ This section improve the code from 1.c website example to make it responsive.
     └── contact.html
     └── courses.html
     └── 📁images
-        └── tafe-logo.gif
+        └── -logo.gif
     └── 📁includes
         └── footer.html
         └── header.html

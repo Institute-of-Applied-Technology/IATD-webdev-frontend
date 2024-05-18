@@ -15,6 +15,6 @@ Start a basic website to give students understanding of what the web was like in
     └── contact.html
     └── courses.html
     └── 📁images
-        └── tafe-logo.gif
+        └── iatd-logo.gif
     └── index.html
 ```

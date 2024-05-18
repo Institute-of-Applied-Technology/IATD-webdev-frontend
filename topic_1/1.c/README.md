@@ -20,7 +20,7 @@ This section further improve the code from 1.b applying the following UI concept
     └── contact.html
     └── courses.html
     └── 📁images
-        └── tafe-logo.gif
+        └── iatd-logo.gif
     └── 📁includes
         └── footer.html
         └── header.html
