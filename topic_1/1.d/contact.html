@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - TAFE NSW</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
+</head>
+<body>
+    <div data-include-html="includes/header.html"></div>
+    <main class="container">
+        <h1>Contact Us</h1>
+        <p>You can reach us via phone at 131 601 or email at enrolment@tafensw.edu.au</p>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            
+            <button type="submit">Submit</button>
+        </form>
+        <h2>Our Locations</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Campus</th>
+                    <th>Address</th>
+                    <th>Contact</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Sydney</td>
+                    <td>123 Main St, Sydney</td>
+                    <td>(02) 1234 5678</td>
+                </tr>
+                <tr>
+                    <td>Melbourne</td>
+                    <td>456 High St, Melbourne</td>
+                    <td>(03) 9876 5432</td>
+                </tr>
+                <tr>
+                    <td>Brisbane</td>
+                    <td>789 Queen St, Brisbane</td>
+                    <td>(07) 3456 7890</td>
+                </tr>
+            </tbody>
+        </table>
+    </main>
+    <div data-include-html="includes/footer.html"></div>
+    <script src="scripts/main.js"></script>
+</body>
+</html>

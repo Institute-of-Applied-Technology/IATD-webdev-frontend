@@ -1,0 +1,61 @@
+/* styles/style.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+header, footer {
+    background: #0047AB;
+    color: white;
+    padding: 1em 0;
+    text-align: center;
+}
+
+header img {
+    float: left;
+    margin-right: 10px;
+    height: 50px; /* Adjust the height to make the logo smaller */
+}
+
+header h1 {
+    margin: 0;
+    line-height: 50px; /* Align the text vertically with the logo */
+}
+
+nav {
+    background: #333;
+    clear: both;
+}
+
+nav a {
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+nav a:hover {
+    background: #575757;
+}
+
+nav a.active {
+    background: #0047AB;
+}
+
+.container {
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+}
+
+h1, h2 {
+    color: #0047AB;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}

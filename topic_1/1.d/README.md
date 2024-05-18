@@ -7,5 +7,22 @@ The code in this repository provides practical examples and additional resources
 This section improve the code from 1.c website example to make it responsive.
 - content, menu/navigation should adjust as per the screen size of the device
 
+## Folder Structure 
+
+topic_1/1.d/
+├── index.html
+├── about.html
+├── courses.html
+├── contact.html
+├── students.html
+├── includes/
+│   ├── header.html
+│   └── footer.html
+├── styles/
+│   └── style.css
+├── scripts/
+│   └── main.js
+└── images/
+    └── tafe-logo.gif
 
 

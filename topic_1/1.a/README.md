@@ -7,4 +7,13 @@ The code in this repository provides practical examples and additional resources
 
 Start a basic website to give students understanding of what the web was like in early stages soon after its inception, explaining various section of the HTML document. 
 
+## Folder Structure 
+
+topic_1/1.a/
+├── index.html
+├── about.html
+├── courses.html
+├── contact.html
+└── images/
+    └── tafe-logo.gif
 

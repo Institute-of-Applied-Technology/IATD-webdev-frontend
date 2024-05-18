@@ -11,5 +11,18 @@ This section improves the code from 1.a applying the following UX concepts
 - Accessibility
 - User centred design
 
+## Folder Structure 
+
+topic_1/1.b/
+├── index.html
+├── about.html
+├── courses.html
+├── contact.html
+├── styles/
+│   └── style.css
+├── scripts/
+│   └── main.js
+└── images/
+    └── tafe-logo.gif
 
 
