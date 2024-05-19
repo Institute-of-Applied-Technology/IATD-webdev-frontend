@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#" onclick="showForm('plainForm')">Form 1 (No Aesthetic Usability Effects)</a></li>
+            <li><a href="#" onclick="showForm('aestheticForm')">Form 2 (With Aesthetic Usability Effects)</a></li>
+        </ul>
+    </nav>
+    <div id="formContainer">
+        <div id="plainForm" class="form">
+            <h2>Contact Form (No Aesthetic Usability Effects)</h2>
+            <form>
+                <label>First Name:</label>
+                <input type="text" name="firstName"><br>
+                <label>Last Name:</label>
+                <input type="text" name="lastName"><br>
+                <label>Email:</label>
+                <input type="email" name="email"><br>
+                <label>Phone:</label>
+                <input type="tel" name="phone"><br>
+                <label>Address:</label>
+                <input type="text" name="address"><br>
+                <label>City:</label>
+                <input type="text" name="city"><br>
+                <label>State:</label>
+                <input type="text" name="state"><br>
+                <label>Zip Code:</label>
+                <input type="text" name="zip"><br>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+        <div id="aestheticForm" class="form" style="display:none;">
+            <h2>Contact Form (With Aesthetic Usability Effects)</h2>
+            <form onsubmit="handleSubmit(event)">
+                <div class="form-group">
+                    <label for="firstName">First Name:</label>
+                    <input type="text" id="firstName" name="firstName" placeholder="Enter your first name" required>
+                </div>
+                <div class="form-group">
+                    <label for="lastName">Last Name:</label>
+                    <input type="text" id="lastName" name="lastName" placeholder="Enter your last name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                </div>
+                <div class="form-group">
+                    <label for="phone">Phone:</label>
+                    <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" required>
+                </div>
+                <div class="form-group">
+                    <label for="address">Address:</label>
+                    <input type="text" id="address" name="address" placeholder="Enter your address" required>
+                </div>
+                <div class="form-group">
+                    <label for="city">City:</label>
+                    <input type="text" id="city" name="city" placeholder="Enter your city" required>
+                </div>
+                <div class="form-group">
+                    <label for="state">State:</label>
+                    <input type="text" id="state" name="state" placeholder="Enter your state" required>
+                </div>
+                <div class="form-group">
+                    <label for="zip">Zip Code:</label>
+                    <input type="text" id="zip" name="zip" placeholder="Enter your zip code" required>
+                </div>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

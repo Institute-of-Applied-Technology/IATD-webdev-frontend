@@ -6,5 +6,15 @@ The code in this repository provides practical examples and additional resources
 ## Section 2.c 
 
 A sample website that explains modren design theories:
-- Doherty Thershold:  using a spinning wait wheel and progress bar
-- Postel's Law: using an example of drop down and search box (Australian States)
+- Doherty Thershold:  using a progress bar
+
+## Folder Structure 
+
+```
+└── 📁2.c
+    └── README.md
+    └── index.html
+    └── script.js
+    └── styles.css
+```
+

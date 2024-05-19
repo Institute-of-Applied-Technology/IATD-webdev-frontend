@@ -9,3 +9,39 @@ A sample website to explain the modren web design through a simple website that 
 - responsive layouts
 - minimalist aesthetics, creative typography, vibrant colours
 - interactive elements
+
+## Folder Structure 
+```
+└── 📁2.a
+    └── README.md
+    └── about.html
+    └── 📁assets
+        └── 📁fonts
+        └── 📁images
+            └── about.jpg
+            └── cosmetic-dentistry.jpg
+            └── emergency-care.jpg
+            └── general-dentistry.jpg
+            └── hero.jpg
+            └── logo.png
+            └── orthodontics.jpg
+    └── contact.html
+    └── 📁css
+        └── styles.css
+    └── 📁fonts
+    └── footer.html
+    └── header.html
+    └── 📁images
+        └── about.jpg
+        └── cosmetic-dentistry.jpg
+        └── emergency-care.jpg
+        └── general-dentistry.jpg
+        └── hero.jpg
+        └── logo.png
+        └── orthodontics.jpg
+    └── index.html
+    └── 📁js
+        └── include.js
+        └── scripts.js
+    └── services.html
+```

@@ -7,3 +7,13 @@ The code in this repository provides practical examples and additional resources
 
 A sample website that follows Fundamentals of modern web design:
 - Aesthetic Usability Effect
+
+## Folder Structure 
+
+```
+└── 📁2.b
+    └── README.md
+    └── index.html
+    └── script.js
+    └── styles.css
+```
