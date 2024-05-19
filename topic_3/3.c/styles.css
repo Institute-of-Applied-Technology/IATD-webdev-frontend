@@ -1,0 +1,80 @@
+/* Universal selector */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Type selector */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+}
+
+/* ID selector */
+#home {
+    background-color: #e2e2e2;
+    padding: 20px;
+    margin: 10px 0;
+}
+
+/* Class selector */
+nav ul {
+    list-style: none;
+    background-color: #333;
+    padding: 10px;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+/* Attribute selector */
+nav ul li a[href="#home"] {
+    color: red;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Pseudo-class selector */
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Descendant selector */
+main section h2 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+/* Child selector */
+main > section {
+    padding: 20px;
+    background-color: #fff;
+    margin: 10px 0;
+    border-radius: 5px;
+}
+
+/* Adjacent sibling selector */
+h2 + p {
+    font-style: italic;
+}
+
+/* General sibling selector */
+section ~ section {
+    border-top: 2px solid #ddd;
+    padding-top: 10px;
+}
+
+/* Grouping selector */
+header, footer {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}

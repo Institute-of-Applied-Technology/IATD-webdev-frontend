@@ -8,3 +8,24 @@ The code in this repository provides practical examples and additional resources
 A sample website that is a combination of:
 - responsive layouts
 - mobile friendly e.g. header menu that collapses to a hamburger menu
+
+## Folder Structure 
+
+```
+└── 📁3.a
+    └── README.md
+    └── about.html
+    └── contact.html
+    └── 📁css
+        └── style.css
+    └── 📁images
+        └── banner.jpg
+        └── logo.png
+    └── 📁includes
+        └── footer.html
+        └── header.html
+    └── index.html
+    └── 📁js
+        └── script.js
+    └── menu.html
+```

@@ -7,5 +7,28 @@ The code in this repository provides practical examples and additional resources
 
 A sample website that makes use of: 
 - multicol
-- flexbox
 - css grid
+- Responsive images/media and typography
+
+## Folder Structure 
+
+```
+└── 📁3.b
+    └── README.md
+    └── about.html
+    └── contact.html
+    └── 📁css
+        └── style.css
+    └── 📁images
+        └── banner.jpg
+        └── logo.png
+    └── 📁includes
+        └── footer.html
+        └── header.html
+    └── index.html
+    └── 📁js
+        └── script.js
+    └── menu.html
+    └── products.html
+    └── services.html
+```

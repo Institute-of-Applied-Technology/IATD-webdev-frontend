@@ -5,7 +5,27 @@ The code in this repository provides practical examples and additional resources
 
 ## Section 3.d
 
-A sample website that explains the use of css concepts:
-- Selectors
-- Properties
-- Responsive Design
+A sample website that explains the how websites can be made accessible using various techniques using css and html.
+
+## Folder Structure 
+
+```
+└── 📁3.d
+    └── README.md
+    └── about.html
+    └── contact.html
+    └── 📁css
+        └── styles.css
+    └── 📁images
+        └── daily-essentials.jpg
+        └── fresh-produce.jpg
+        └── snacks-beverages.jpg
+    └── 📁includes
+        └── footer.html
+        └── header.html
+    └── index.html
+    └── 📁js
+        └── script.js
+    └── products.html
+    └── services.html
+```
