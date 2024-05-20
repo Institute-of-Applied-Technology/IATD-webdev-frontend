@@ -1,0 +1,84 @@
+/* styles.css */
+
+/* General Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Styling */
+header {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
+
+/* Main Content Styling */
+main {
+    margin: 20px;
+    text-align: center;
+}
+
+/* Input Field Styling */
+input {
+    padding: 10px;
+    font-size: 16px;
+    margin-right: 10px;
+    width: 70%;
+}
+
+/* Button Styling */
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* Button Hover Effect */
+button:hover {
+    background-color: #45a049;
+}
+
+/* Unordered List Styling */
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 20px;
+    text-align: left;
+}
+
+/* List Item Styling */
+li {
+    background-color: white;
+    margin: 5px 0;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Completed Task Styling */
+li.completed {
+    text-decoration: line-through;
+    color: #888;
+}
+
+/* Delete Button Styling */
+button.delete {
+    background-color: #e74c3c;
+    padding: 5px 10px;
+    font-size: 14px;
+}
+
+/* Delete Button Hover Effect */
+button.delete:hover {
+    background-color: #c0392b;
+}

@@ -1,0 +1,38 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.item-list, .cart-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.item, .cart-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.total-price {
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+input[type="text"], input[type="number"] {
+    padding: 5px;
+    margin: 5px 0;
+    width: calc(100% - 12px); /* adjust width to account for padding */
+    box-sizing: border-box;
+}
+
+button {
+    margin-left: 5px;
+}

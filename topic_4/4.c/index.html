@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Shopping Cart</h1>
+        <input type="text" id="itemInput" placeholder="Enter an item">
+        <input type="number" id="priceInput" placeholder="Enter price" min="0" step="0.01">
+        <button id="addItemButton">Add Item</button>
+        <h2>Available Items</h2>
+        <ul id="itemList" class="item-list"></ul>
+        <h2>Shopping Cart</h2>
+        <ul id="cartList" class="cart-list"></ul>
+        <div id="totalPrice" class="total-price"></div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>

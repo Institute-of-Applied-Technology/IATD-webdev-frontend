@@ -5,4 +5,11 @@ The code in this repository provides practical examples and additional resources
 
 ## Section 4.a 
 
-A sample website that is a combination of  HTML,CSS and Javascript and shows how different layer work together
+A sample website that is a combination of  HTML,CSS and Javascript and shows how different layers work together
+
+## Folder structure
+
+topic_4/4.a/
+├── index.html
+├── styles.css
+└── script.js

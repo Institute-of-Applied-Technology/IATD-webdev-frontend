@@ -6,3 +6,10 @@ The code in this repository provides practical examples and additional resources
 ## Section 4.b
 
 A sample web App that uses JavaScript types, functions, and control flow all in one app
+
+## Folder structure
+
+topic_4/4.b/
+├── index.html
+├── styles.css
+└── app.js

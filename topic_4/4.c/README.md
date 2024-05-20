@@ -5,4 +5,11 @@ The code in this repository provides practical examples and additional resources
 
 ## Section 4.c
 
-A sample webapp that uses JavaScript Data Structure
+A sample webapp that uses JavaScript Data Structure, loops ad iterations
+
+## Folder structure
+
+topic_4/4.c/
+├── index.html
+├── styles.css
+└── app.js
