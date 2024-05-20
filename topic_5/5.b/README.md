@@ -6,3 +6,25 @@ The code in this repository provides practical examples and additional resources
 ## Section 5.b
 
 Explain usage of a Vite + React, a JavaScript Framework through a sample website  a few basic files and structuring them appropriately.
+
+# Folder Structure
+
+```
+└── 📁5.b
+    └── .eslintrc.cjs
+    └── .gitignore
+    └── README.md
+    └── index.html
+    └── package-lock.json
+    └── package.json
+    └── 📁public
+        └── vite.svg
+    └── 📁src
+        └── App.css
+        └── App.jsx
+        └── 📁assets
+            └── react.svg
+        └── index.css
+        └── main.jsx
+    └── vite.config.js
+```

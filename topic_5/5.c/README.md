@@ -6,3 +6,6 @@ The code in this repository provides practical examples and additional resources
 ## Section 5.c
 
 Explain usage of a Angular, a JavaScript Framework through a sample website  a few basic files and structuring them appropriately.
+
+## Note
+Code samples have been embedded in the course document

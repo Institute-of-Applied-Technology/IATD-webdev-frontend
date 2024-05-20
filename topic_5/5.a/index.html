@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Development Courses</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Web Development Courses</h1>
+        <div class="controls">
+            <button id="showCourses">Show Courses</button>
+            <label>
+                <input type="checkbox" id="disableButton"> Disable Button
+            </label>
+        </div>
+        <table id="coursesTable" style="display: none;">
+            <thead>
+                <tr>
+                    <th>Course Name</th>
+                    <th>Duration</th>
+                    <th>Platform</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>HTML & CSS</td>
+                    <td>3 weeks</td>
+                    <td>Coursera</td>
+                </tr>
+                <tr>
+                    <td>JavaScript Basics</td>
+                    <td>4 weeks</td>
+                    <td>Udacity</td>
+                </tr>
+                <tr>
+                    <td>jQuery Essentials</td>
+                    <td>2 weeks</td>
+                    <td>edX</td>
+                </tr>
+                <tr>
+                    <td>React.js Fundamentals</td>
+                    <td>5 weeks</td>
+                    <td>Pluralsight</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

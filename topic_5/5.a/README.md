@@ -6,3 +6,12 @@ The code in this repository provides practical examples and additional resources
 ## Section 5.a 
 
 Explain usage of a JQuery, a JavaScript library through a sample website  using jQuery, HTML, CSS, and JavaScript involves creating a few basic files and structuring them appropriately.
+
+# Folder Structure
+
+```
+└── 📁5.a
+    └── index.html
+    └── script.js
+    └── styles.css
+```
