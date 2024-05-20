@@ -6,3 +6,12 @@ The code in this repository provides practical examples and additional resources
 ## Section 6.a 
 
 Explain functional design through a sample website  using HTML, CSS, and JavaScript
+
+# Folder Structure
+
+```
+└── 📁6.a
+    └── index.html
+    └── app.js
+    └── styles.css
+```

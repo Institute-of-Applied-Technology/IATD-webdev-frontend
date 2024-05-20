@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Library</h1>
+        <nav>
+            <button class="filter-button" data-genre="all">All Books</button>
+            <button class="filter-button" data-genre="fiction">Fiction</button>
+            <button class="filter-button" data-genre="classics">Classics</button>
+            <button class="filter-button" data-genre="fantasy">Fantasy</button>
+        </nav>
+        <form id="book-form">
+            <input type="text" id="title" placeholder="Book Title" required>
+            <input type="text" id="author" placeholder="Author" required>
+            <input type="text" id="genre" placeholder="Genre" required>
+            <button type="submit">Add Book</button>
+        </form>
+        <ul id="book-list"></ul>
+        <div id="pagination">
+            <button id="prev-page">Previous</button>
+            <span id="page-info"></span>
+            <button id="next-page">Next</button>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>

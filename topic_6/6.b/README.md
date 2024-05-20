@@ -5,4 +5,13 @@ The code in this repository provides practical examples and additional resources
 
 ## Section 6.b
 
-Explain asthetic design through a sample website  using HTML, CSS, and JavaScript
+Explain aesthetic design through a sample website  using HTML, CSS, and JavaScript
+
+# Folder Structure
+
+```
+└── 📁6.b
+    └── index.html
+    └── script.js
+    └── styles.css
+```

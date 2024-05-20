@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expense Tracker</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Expense Tracker</h1>
+        </header>
+        <main>
+            <form id="expense-form">
+                <div class="input-group">
+                    <select id="expense-type" required>
+                        <option value="" disabled selected>Select Expense Type</option>
+                        <option value="Groceries">Groceries</option>
+                        <option value="Rent">Rent</option>
+                        <option value="Utilities">Utilities</option>
+                        <option value="Transportation">Transportation</option>
+                        <option value="Entertainment">Entertainment</option>
+                        <option value="Dining">Dining</option>
+                        <option value="Healthcare">Healthcare</option>
+                        <option value="Insurance">Insurance</option>
+                        <option value="Savings">Savings</option>
+                        <option value="Investments">Investments</option>
+                        <option value="Debt Payment">Debt Payment</option>
+                        <option value="Education">Education</option>
+                        <option value="Personal Care">Personal Care</option>
+                        <option value="Clothing">Clothing</option>
+                        <option value="Miscellaneous">Miscellaneous</option>
+                        <option value="Other">Other</option>
+                    </select>
+                    <input type="text" id="custom-expense" placeholder="Custom Expense" style="display:none;">
+                </div>
+                <div class="input-group">
+                    <input type="number" id="expense-amount" placeholder="Amount" required>
+                </div>
+                <div class="input-group">
+                    <select id="expense-month" required>
+                        <option value="" disabled selected>Select Month</option>
+                        <option value="January">January</option>
+                        <option value="February">February</option>
+                        <option value="March">March</option>
+                        <option value="April">April</option>
+                        <option value="May">May</option>
+                        <option value="June">June</option>
+                        <option value="July">July</option>
+                        <option value="August">August</option>
+                        <option value="September">September</option>
+                        <option value="October">October</option>
+                        <option value="November">November</option>
+                        <option value="December">December</option>
+                    </select>
+                    <select id="expense-year" required>
+                        <option value="" disabled selected>Select Year</option>
+                        <option value="2023">2023</option>
+                        <option value="2024">2024</option>
+                        <option value="2025">2025</option>
+                        <option value="2026">2026</option>
+                        <option value="2027">2027</option>
+                    </select>
+                </div>
+                <button type="submit">Add Expense</button>
+            </form>
+            <ul id="expense-list"></ul>
+            <div class="total">
+                Total: $<span id="total-amount">0.00</span>
+            </div>
+        </main>
+        <footer>
+            <p>&copy; 2024 Expense Tracker</p>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
